@@ -6,19 +6,29 @@ function App() {
 
   return (
     <>
-      <h1>About me:</h1>
-      <h2>Emilia Muniz</h2>
-      <img src={pic} alt="" />
+      <div id="parent">
+        <div id="child">
+          <img src={pic} alt="" />
 
-      <h3>info</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore
-        ipsam autem modi non sunt at excepturi! Iusto corrupti dicta, laudantium
-        ipsam provident deleniti officiis consequatur, a perspiciatis sapiente
-        nam?
-      </p>
+          <h1>Emilia Muñiz 💕</h1>
+          <h2>✨unemployed✨</h2>
+          <div id="abt">
+            <h3>About me:</h3>
 
-      <h3>i am {age} years old</h3>
+            <p>
+              I just found out I got a 5 on my AP computer science test!!!
+              💪💪💪
+            </p>
+          </div>
+          <div id="contact">
+            <h3>Contact info:</h3>
+            <p>
+              Email: emiliamuñiz@gmail.com <br /> LinkedIn:
+              https://www.linkedin.com/in/emilia-mu%C3%B1iz-94b249251/
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
