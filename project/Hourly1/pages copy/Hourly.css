@@ -1,0 +1,75 @@
+.body {
+  background-image: linear-gradient(#6200ff, #4839ed, #4839ed, #7ab4dd);
+  color: white;
+
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
+}
+
+.header {
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 35px;
+  font-weight: light;
+}
+
+/* .Temps {
+  background-color: rgb(255, 242, 127); */
+/* }
+*/
+.Icon {
+  margin-top: 6px;
+}
+
+/* .Text {
+  background-color: aquamarine;
+  width: 240px;
+  padding-left: 20px;
+} */
+
+.img {
+  height: 53.5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #79c9ff00;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #4c00ff8e;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2f00ff;
+  }
+}
+
+.info {
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.253);
+  background-color: #d8e7ff62;
+  width: 1000px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  /* 
+  padding: 5px;
+  margin-top: 5px; */
+
+  height: 800px;
+  overflow-y: scroll;
+}

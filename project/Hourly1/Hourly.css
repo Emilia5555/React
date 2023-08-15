@@ -1,0 +1,14 @@
+.Temps {
+  color: red;
+
+  margin-left: 20px;
+}
+
+.Time {
+  color: rgb(62, 184, 255);
+}
+
+.info {
+  display: flex;
+  padding-left: 50px;
+}
